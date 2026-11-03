@@ -1,0 +1,31 @@
+{
+  "archive": "before-studio-refinement-20261103-195055.tar.gz",
+  "sha256": "4e2734ddafa27929e5e9416df8c1e683fbda0ff89324da5d048af153c5020cb4",
+  "files": {
+    ".gitignore": "60b12a8b521c3b5d1157e8749b686d59a9427b3287803eecaa36e334a90d9a94",
+    ".openai/hosting.json": "acc20694e7eaffb5885f9062e30c2b2f92e14cfe36a6c1ac3a07b4ad0bc594e3",
+    "404.html": "63a11caf7f3f540f1792f1d7d270451297a91358a246ff0f235afd3ae75d9315",
+    "README.md": "fbcfd1e813b46f667eb7a503e3f6b90723ebc1e5a5be191e003d34b2216b69f5",
+    "about.html": "60b686bbbad9e193e9bdfb44554fbdb981d25d7771ff716e79c9d1434a7b03ed",
+    "assets/Signiture_4.jpg": "6604839468c62f2baf93cb409975bc33625772791f3b91d395e0f426bc690983",
+    "assets/favicon.svg": "ed429b24c4bae4975449133425446950c8a37de33f552ab54d02d6ff0c817eb0",
+    "assets/folio.svg": "d692d3441c3b36c617641883185f4e3d2a8e449acf6753e36db1f65926fdf4c4",
+    "assets/forma.svg": "92c6d54c28679bf7d5b059ce6d27e9b95e3f74dfc5ff49dfc7ae1d7185dfc68e",
+    "assets/hero-sculpture.svg": "7eafcef3b6aa32d2ded637b8bf8413de7404c8c6ce9f811e8bb1d960e3c694b4",
+    "assets/mobile-preview.svg": "854dd7043ae07b6512bd263af787abffeb9a649a810e26b06bc582d8edecc41c",
+    "assets/still.svg": "1d08da27c373ac252fc4156d81c2a59aef3582257ab58d36d3bfa8860dda0e99",
+    "assets/website-preview.svg": "eed177d4371365cff07d11e1b007a2f7ba80af483a6617f5f51d570dd41276c6",
+    "assets/workspace.svg": "b57e325b8f14e49b3be17362293046915724e1395ac60d290100f24b8938f088",
+    "contact.html": "fecd722da0610620089b8f47d0add105c9c9d74a3732e5adb78c7bd707987af9",
+    "index.html": "686a9087f8aae70196b5582f6ab165b85a0ac9b4d4200572c191c54cf1992f76",
+    "package.json": "31ee7e665d2eba7b51355df2af74cbbb6f0175b41b2d4f19b16b38d559b6d720",
+    "project.html": "044bc219d85c5eeedc20dc015c5efc6e329681c9073244698a9d64ca063a4590",
+    "script.js": "dbb73da5c3aeb5f3742dc3ad69f994bdc95b1e66aeefbedc0056c3a9fba8330e",
+    "scripts/build.mjs": "a289bcb3214df30329957ab7fae373af9519c3ee1408eed45727c867af209ebf",
+    "scripts/check.mjs": "46c2688c6bcb606bad7c2733c5e4503346a83019d75f267d330a848d08d9f230",
+    "scripts/serve.mjs": "71e0b294cde16680c71e723ec5d8c1aaaf5e8e9edb027c723260ebe7132f3388",
+    "site.config.js": "ccab13886b310ff9a2003d0f3fe4add46fec1d490b75991a003c67220e6ea99e",
+    "styles.css": "632aae0b6ee1029577898123ffe0d85aeadfa9607354691c0b291b6da6e14f14",
+    "work.html": "92ec68d3920a274ead4f46844ce0b49b1f3105603cbf278d6941f175cc8364a8"
+  }
+}

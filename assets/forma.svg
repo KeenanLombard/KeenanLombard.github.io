@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760">
+<defs>
+<linearGradient id="stage" x2="1" y2="1"><stop stop-color="#e3e8dc"/><stop offset="1" stop-color="#cdd5c5"/></linearGradient>
+<linearGradient id="room" x2=".7" y2="1"><stop stop-color="#e6ddcc"/><stop offset="1" stop-color="#cbbfa7"/></linearGradient>
+<linearGradient id="lamp" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#d7c9ae"/><stop offset=".38" stop-color="#f3e9d4"/><stop offset="1" stop-color="#b7a584"/></linearGradient>
+<linearGradient id="base" x2="1"><stop stop-color="#aa9877"/><stop offset=".45" stop-color="#e0d0af"/><stop offset="1" stop-color="#b4a17e"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="19" stdDeviation="20" flood-color="#5e6b52" flood-opacity=".2"/></filter>
+<filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<path fill="url(#stage)" d="M0 0H1000V760H0Z"/>
+<circle cx="980" cy="23" r="260" stroke="#f7f9f0" fill="none" opacity=".35"/>
+<circle cx="980" cy="23" r="350" stroke="#f7f9f0" fill="none" opacity=".25"/>
+<g filter="url(#shadow)">
+<rect x="105" y="95" width="790" height="551" rx="6" fill="#fcfaf5"/>
+<path d="M111 95H889Q895 95 895 101V124H105V101Q105 95 111 95Z" fill="#eeeee6"/>
+<g fill="#c8cbbf"><circle cx="122" cy="109" r="3"/><circle cx="133" cy="109" r="3"/><circle cx="144" cy="109" r="3"/></g>
+<rect x="395" y="102" width="210" height="14" rx="3" fill="#fafbf6"/><text x="500" y="112" font-family="Arial,sans-serif" font-size="7" text-anchor="middle" fill="#93988a">forma.studio</text>
+<text x="147" y="176" font-family="Georgia,serif" font-size="34" fill="#354331" letter-spacing="-2">forma.</text>
+<g font-family="Arial,sans-serif" font-size="9" fill="#66715e"><text x="575" y="167">Shop collection</text><text x="678" y="167">Our philosophy</text><text x="790" y="167">Bag (0)</text></g>
+<path d="M146 195H854" stroke="#e4e4d9"/>
+<text x="148" y="250" font-family="Arial,sans-serif" font-size="8" fill="#8a916f" letter-spacing="2.1">OBJECTS FOR THE EVERYDAY</text>
+<text x="145" y="313" font-family="Georgia,serif" font-size="52" fill="#354331" letter-spacing="-2">Less, but</text>
+<text x="145" y="371" font-family="Georgia,serif" font-size="52" fill="#697454" font-style="italic" letter-spacing="-2">more considered.</text>
+<text x="148" y="411" font-family="Arial,sans-serif" font-size="10" fill="#8b8e7f">Everyday objects. Quietly extraordinary.</text>
+<text x="148" y="428" font-family="Arial,sans-serif" font-size="10" fill="#8b8e7f">Made to be part of your story.</text>
+<rect x="148" y="463" width="150" height="36" rx="2" fill="#3c4b36"/><text x="165" y="485" font-family="Arial,sans-serif" font-size="9" fill="#fff">Explore the collection</text><text x="277" y="486" font-family="Arial,sans-serif" font-size="14" fill="#fff">↗</text>
+<rect x="536" y="220" width="319" height="327" fill="url(#room)"/>
+<path d="M536 435H855V547H536Z" fill="#bdad92" opacity=".35"/>
+<path d="M769 220H802L679 435H647Z" fill="#fcf6e4" opacity=".3"/>
+<ellipse cx="698" cy="500" rx="94" ry="10" fill="#6e5d42" opacity=".16" filter="url(#blur)"/>
+<path d="M600 474L719 452L802 477L686 504Z" fill="#e4dbc8"/><path d="M600 474L686 504V547H600Z" fill="#cabea7"/><path d="M686 504L802 477V547H686Z" fill="#d3c7b2"/>
+<ellipse cx="699" cy="467" rx="37" ry="10" fill="#9c8967" opacity=".2"/>
+<path d="M682 373H714L722 459Q700 473 674 459Z" fill="url(#base)"/>
+<path d="M609 373C615 311 649 274 698 274C745 274 782 311 790 373Z" fill="url(#lamp)"/>
+<ellipse cx="699" cy="373" rx="91" ry="9" fill="#aa9878"/><ellipse cx="699" cy="373" rx="82" ry="5" fill="#d8caac"/>
+<text x="551" y="529" font-family="Arial,sans-serif" font-size="7" fill="#6a604d" letter-spacing="1.4">THE DUNE TABLE LAMP</text><text x="825" y="531" font-size="14" fill="#6a604d">↗</text>
+<path d="M147 580H854" stroke="#e4e4d9"/>
+<g font-family="Arial,sans-serif" font-size="8" fill="#818776"><text x="147" y="609">Thoughtfully designed.</text><text x="432" y="609">Responsibly considered.</text><text x="704" y="609">Made for the long run.</text></g>
+</g>
+<text x="106" y="698" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#6d7b60">FORMA / BRAND &amp; DIGITAL EXPERIENCE</text><text x="895" y="698" text-anchor="end" font-family="Arial,sans-serif" font-size="9" fill="#6d7b60">CONCEPT — 01</text>
+</svg>

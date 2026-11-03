@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="560" viewBox="0 0 520 560">
+<defs>
+  <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#f2eee5"/><stop offset=".6" stop-color="#e9e3d8"/><stop offset="1" stop-color="#f3eee5"/></linearGradient>
+  <linearGradient id="gold" x1="0" x2="1" y1=".3" y2=".5"><stop stop-color="#6d5129"/><stop offset=".18" stop-color="#b39658"/><stop offset=".4" stop-color="#d0b676"/><stop offset=".58" stop-color="#b19351"/><stop offset=".8" stop-color="#d9c48e"/><stop offset="1" stop-color="#a28342"/></linearGradient>
+  <linearGradient id="inner" x2="1"><stop stop-color="#6d522e"/><stop offset="1" stop-color="#b69a5b"/></linearGradient>
+  <linearGradient id="front" x2="0" y2="1"><stop stop-color="#faf9f5"/><stop offset="1" stop-color="#e9e6df"/></linearGradient>
+  <linearGradient id="sphere" x1=".2" y1=".1" x2=".8" y2=".9"><stop stop-color="#d9c495"/><stop offset=".5" stop-color="#b69a5b"/><stop offset="1" stop-color="#6f552f"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs>
+<path d="M31 30H488V506H31Z" fill="url(#wall)"/>
+<path d="M31 362H488V506H31Z" fill="#e1dbcf" opacity=".35"/>
+<path d="M31 362H488" stroke="#d6cfbf" stroke-width=".7"/>
+<path d="M410 31V362M333 31V362" stroke="#f9f5ed" stroke-width="37" opacity=".32"/>
+<path d="M391 31L238 362H190L345 31Z" fill="#fbf8f1" opacity=".4"/>
+<ellipse cx="288" cy="434" rx="164" ry="24" fill="#7d735e" opacity=".16" filter="url(#blur)"/>
+<path d="M106 355L304 319L416 356L220 400Z" fill="#fffefa"/>
+<path d="M106 355L220 400V466L106 420Z" fill="url(#front)"/>
+<path d="M220 400L416 356V422L220 466Z" fill="#e6e2d9"/>
+<path d="M207 350L207 216C207 151 246 119 291 119C338 119 373 152 373 213V321L337 329V215C337 177 319 159 292 159C263 159 245 180 245 216V342Z" fill="#84652f"/>
+<path d="M181 343V210C181 144 219 110 267 110C319 110 350 145 350 207V326L307 336V207C307 173 291 155 267 155C242 155 224 174 224 210V353Z" fill="url(#gold)"/>
+<path d="M224 353L245 342V216C245 192 253 174 269 165C241 160 224 181 224 210Z" fill="url(#inner)"/>
+<path d="M307 336L337 329V215C337 177 319 159 292 159L267 155C292 155 307 174 307 207Z" fill="#e0cb91" opacity=".28"/>
+<path d="M181 343L203 350L224 353V210C224 174 242 155 267 155" stroke="#ead7a4" opacity=".42" fill="none" stroke-width=".8"/>
+<ellipse cx="307" cy="369" rx="42" ry="9" fill="#51442d" opacity=".18" filter="url(#soft)"/>
+<circle cx="304" cy="343" r="30" fill="url(#sphere)"/>
+<path d="M54 51V94M54 51H96M464 51V94M464 51H422" stroke="#a69c87" stroke-width=".6" opacity=".6"/>
+<text x="59" y="123" fill="#a1906e" font-family="Arial,sans-serif" font-size="8" letter-spacing="3" transform="rotate(90 59 123)">FORM / FUNCTION / FEELING</text>
+<circle cx="437" cy="445" r="20" fill="none" stroke="#9e8d6a" stroke-width=".7"/>
+<path d="M429 453L445 437M432 437H445V450" fill="none" stroke="#9b793c" stroke-width="1.1"/>
+<rect x="31" y="30" width="457" height="476" fill="transparent" filter="url(#grain)" opacity=".45"/>
+</svg>
