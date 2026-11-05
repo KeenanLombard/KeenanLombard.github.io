@@ -192,3 +192,44 @@
 @media (max-width: 540px) {
   .work-page-grid .live-work-card .project-image { aspect-ratio: 1.35; }
 }
+
+/* About: a personal studio composition using the actual deployed work. */
+.work-summary { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-block: 20px; margin-bottom: 35px; border-block: 1px solid var(--line); }
+.work-summary .eyebrow { color: var(--gold); }
+.about-studio { display: grid; grid-template-columns: .9fr 1.1fr; gap: 35px; padding: 52px; border: 1px solid var(--line); border-radius: var(--radius); background: #f2efe7; overflow: hidden; }
+.about-studio-copy { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+.about-studio-copy > .eyebrow { color: var(--gold); font-size: 9px; letter-spacing: 1.6px; margin-bottom: 22px; }
+.about-studio-copy h2 { font-size: clamp(32px, 3.5vw, 46px); }
+.about-studio-copy > p:not(.eyebrow) { font-size: 12px; line-height: 1.9; color: #64685f; margin-top: 20px; }
+.about-studio-copy > .text-link { margin-top: 24px; }
+.studio-signoff { display: flex; align-items: center; gap: 12px; margin-top: 34px; }
+.studio-signoff span { font-size: 10px; line-height: 1.7; color: #64685f; }
+.about-studio-work { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); align-content: center; min-width: 0; }
+.studio-window { position: relative; display: block; width: 100%; border: 1px solid #d4cbb8; border-radius: 6px; background: var(--paper); box-shadow: 0 16px 32px #38332416; overflow: hidden; transition: transform .25s; }
+.studio-window:hover { transform: translateY(-5px); }
+.studio-window img { display: block; width: 100%; height: auto; }
+.studio-window-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 9px 12px; color: #747366; font-size: 8px; }
+.studio-window-bar > span:first-child { color: #c4b89d; font-size: 6px; letter-spacing: 2px; }
+.studio-window-bar > span:last-child { color: var(--gold); font-size: 12px; }
+.studio-window-barber { grid-column: 1 / 8; grid-row: 1; }
+.studio-window-guest { grid-column: 2 / -1; grid-row: 2; margin-top: -42%; }
+.studio-work-caption { grid-column: 1 / -1; margin-top: 20px; text-align: right; font-size: 9px; color: #64685f; }
+@media (max-width: 1000px) {
+  .about-studio { padding: 36px; gap: 26px; }
+}
+@media (max-width: 760px) {
+  .about-studio { grid-template-columns: 1fr; padding: 32px; gap: 36px; }
+  .about-studio-work { width: min(100%, 490px); justify-self: center; }
+}
+@media (max-width: 540px) {
+  .about-studio { padding: 25px 20px; gap: 28px; }
+  .about-studio-copy h2 { font-size: 35px; }
+  .studio-signoff { margin-top: 26px; }
+  .about-studio-work { grid-template-columns: 1fr; gap: 18px; }
+  .studio-window { grid-column: 1; grid-row: auto; margin-top: 0; }
+  .studio-work-caption { margin-top: 0; text-align: left; font-size: 9px; }
+  .work-summary { margin-bottom: 26px; }
+  .work-summary .eyebrow { font-size: 9px; letter-spacing: 1.4px; }
+}
+
+.next-project > a { gap: 20px; font-size: clamp(32px, 7vw, 65px); }
