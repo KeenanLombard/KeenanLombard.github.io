@@ -28,7 +28,7 @@ for (const page of pages) {
     catch { errors.push(`${page}: missing local target ${file}`); }
     if (file === 'project.html') {
       const slug = new URL(url, 'https://example.com/').searchParams.get('project');
-      if (slug && !['barber', 'forma', 'folio', 'still'].includes(slug)) errors.push(`${page}: unknown project ${slug}`);
+      if (slug && !['barber', 'guest-house', 'forma', 'folio', 'still'].includes(slug)) errors.push(`${page}: unknown project ${slug}`);
     }
   }
   for (const match of html.matchAll(/<img\b[^>]*>/g)) {

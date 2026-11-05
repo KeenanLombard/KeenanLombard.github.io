@@ -177,3 +177,18 @@
   .project-screen-grid { grid-template-columns: 1fr; margin-top: 35px; gap: 30px; }
   .mobile-screen { width: min(100%, 260px); justify-self: center; }
 }
+
+/* The second live build uses the same uncropped screenshot treatment. */
+.guest-house-cover { background: #dce6e9; }
+.project-card.live-feature .project-image { aspect-ratio: auto; display: flex; align-items: center; }
+.project-card.live-feature .project-image img { height: auto; object-fit: contain; }
+.project-cover.guest-house-cover img { display: block; width: 100%; height: auto; min-height: 0; object-fit: contain; }
+.work-page-grid .live-work-card { grid-column: 1 / -1; }
+.work-page-grid .live-work-card .project-image { aspect-ratio: 1.8; padding: 26px; }
+.work-page-grid .live-work-card .project-image img { object-fit: contain; }
+@media (max-width: 760px) {
+  .work-page-grid .live-work-card .project-image { padding: 16px; }
+}
+@media (max-width: 540px) {
+  .work-page-grid .live-work-card .project-image { aspect-ratio: 1.35; }
+}
